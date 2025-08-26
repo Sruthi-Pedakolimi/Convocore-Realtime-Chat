@@ -68,16 +68,16 @@ ConvoCore is a modern chat application that demonstrates distributed systems con
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.jpg)
+<img src="screenshots/home.jpg" width="600">
 
 ### Chat Interface
-![Chat Room](screenshots/chat screen.jpg)
+<img src="screenshots/chat screen.jpg" width="600">
 
 ### Public Server
-![Profile Page](screenshots/public server.jpg)
+<img src="screenshots/public server.jpg" width="600">
 
 ### Interaction
-![Login](screenshots/parallel chat.jpg)
+<img src="screenshots/parallel chat.jpg" width="600">
 
 ---
 
