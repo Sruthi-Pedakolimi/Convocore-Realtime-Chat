@@ -1,0 +1,209 @@
+/* ConvoCore Chat App Styles */
+
+body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    margin-top: 5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+ul {
+    margin: 0;
+}
+
+/* navbar stuff */
+.bg-steel {
+    background-color: #2d3748 !important;
+    border-bottom: 1px solid #4a5568;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #a0aec0;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #63b3ed;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+    color: #63b3ed;
+}
+
+.navbar-brand {
+    color: #63b3ed !important;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #90cdf4 !important;
+}
+
+/* main content areas */
+.content-section {
+    background: #2d3748;
+    padding: 20px;
+    border: 1px solid #4a5568;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    color: #e2e8f0;
+}
+
+a.article-title:hover {
+    color: #63b3ed;
+    text-decoration: none;
+}
+
+.article-content {
+    white-space: pre-line;
+    color: #e2e8f0;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+    border-radius: 50%;
+    border: 2px solid #4a5568;
+}
+
+.article-metadata {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #4a5568;
+    color: #a0aec0;
+    font-size: 14px;
+}
+
+.article-metadata a:hover {
+    color: #63b3ed;
+    text-decoration: none;
+}
+
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    border: 3px solid #63b3ed;
+}
+
+.account-heading {
+    font-size: 2.5rem;
+    color: #63b3ed;
+}
+
+/* forms and buttons */
+.form-control {
+    background-color: #1a202c !important;
+    border: 1px solid #4a5568 !important;
+    color: #e2e8f0 !important;
+    border-radius: 6px !important;
+}
+
+.form-control:focus {
+    background-color: #2d3748 !important;
+    border-color: #63b3ed !important;
+    box-shadow: 0 0 0 3px rgba(99, 179, 237, 0.1) !important;
+    color: #ffffff !important;
+}
+
+.btn-outline-info {
+    color: #63b3ed !important;
+    border-color: #63b3ed !important;
+    background-color: transparent;
+}
+
+.btn-outline-info:hover {
+    background-color: #63b3ed !important;
+    border-color: #63b3ed !important;
+    color: #1a202c !important;
+}
+
+/* sidebar */
+.list-group-item {
+    background-color: #2d3748 !important;
+    border: 1px solid #4a5568 !important;
+    margin-bottom: 5px;
+    border-radius: 6px !important;
+}
+
+.list-group-item:hover {
+    background-color: #4a5568 !important;
+}
+
+.list-group-item a {
+    color: #e2e8f0 !important;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    color: #63b3ed !important;
+}
+
+/* chat specific */
+#chat-log-container {
+    background-color: #1a202c !important;
+    border: 1px solid #4a5568 !important;
+    border-radius: 8px !important;
+    height: 480px;
+    overflow-y: auto;
+    padding: 15px !important;
+}
+
+.media.content-section {
+    background-color: #2d3748;
+    border: 1px solid #4a5568;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* alerts */
+.alert-success {
+    background-color: #2b6cb0 !important;
+    border-color: #3182ce !important;
+    color: #ffffff !important;
+}
+
+/* links */
+a {
+    color: #63b3ed;
+}
+
+a:hover {
+    color: #90cdf4;
+    text-decoration: none;
+}
+
+legend {
+    color: #ffffff !important;
+    border-bottom: 2px solid #63b3ed !important;
+    font-weight: 600;
+}
+
+/* scrollbar */
+#chat-log-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-log-container::-webkit-scrollbar-track {
+    background: #2d3748;
+}
+
+#chat-log-container::-webkit-scrollbar-thumb {
+    background: #4a5568;
+    border-radius: 4px;
+}
+
+#chat-log-container::-webkit-scrollbar-thumb:hover {
+    background: #63b3ed;
+}
